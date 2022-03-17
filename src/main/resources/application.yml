@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: microchelik1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: https://reg-serv.herokuapp.com/eureka/
+
+server:
+  port: 2222
